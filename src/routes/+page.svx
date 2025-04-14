@@ -1,0 +1,14 @@
+# Bienvenue sur la PWA de l’Ouvroir
+
+Modifiez ce fichier Markown pour créer votre page d’accueil.
+
+Consultez la documentation sur [ouvroir/museum-pwa](https://github.com/ouvroir/museum-pwa)
+
+Ce template utilise SvelteKit. Voir la [documentation de SvelteKit](https://svelte.dev/docs/kit)
+
+
+# Welcome to Ouvroir’s PWA application
+
+You can modify this Markdown file to change your home page.
+
+This template uses SvelteKit. See the [SvelteKit documentation](https://svelte.dev/docs/kit)

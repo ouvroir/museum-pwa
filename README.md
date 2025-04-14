@@ -1,10 +1,15 @@
 # Museum PWA
 
-Minimal progressive application for museum.
+Minimal progressive application for museum (in progress).
 
 [Discussions](https://github.com/ouvroir/museum-pwa/discussions)
 
 ---
+
+This program is free software; you can redistribute it and/or modify it under the terms of the [GNU General Public License](https://github.com/ouvroir/museum-pwa/LICENCE) as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+
+---
+
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag “enhancement”. Don’t forget to give the project a star! Thanks again!
