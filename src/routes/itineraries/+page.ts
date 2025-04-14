@@ -4,7 +4,7 @@ import { slugFromPath } from '$lib/utilities/slugFromPath';
 const MAX_POSTS = 10;
 
 export const load: PageLoad = async () => {
-	const content = import.meta.glob(`/src/posts/*.{md,svx,svelte.md}`);
+	const content = import.meta.glob(`/src/itineraries/*.{md,svx,svelte.md}`);
 
 	const postPromises = Object.entries(content).map(([path, resolver]) =>
 		resolver().then(

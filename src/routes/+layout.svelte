@@ -16,10 +16,6 @@
 
 <header>
     <Nav />
-    <h1>Page Heading with <i>Italics</i> and <u>Underline</u></h1>
-    <p>Page Subheading with <mark>highlighting</mark></p>
-    <br>
-    <p><a href="#e"><i>Italic Link Button</i></a><a href="#e"><b>Bold Link Button &rarr;</b></a></p>
 </header>
 
 <main>

@@ -1,0 +1,16 @@
+# About
+
+This Progressive Web App (PWA) is a lightweight, modular template designed for museums and cultural institutions looking to offer accessible, low-tech, and sustainable digital experiences. Built with SvelteKit, it embodies the principles of minimal computing, prioritizing simplicity, technological frugality, and long-term resilience.
+
+Designed to operate with minimal resources, the app relies on open, energy-efficient web technologies. It ensures broad accessibility — including in low-connectivity environments or on modest devices.
+
+Key Principles:
+- Digital Frugality: Lightweight code, reduced environmental impact, performance-first design.
+- Offline Access: Full PWA functionality ensures access even without an internet connection.
+- Autonomy and Longevity: No dependency on proprietary platforms; the app is fully self-hostable.
+- Universal Accessibility: Responsive design, simple navigation, and support for assistive technologies.
+- Easy to Adapt: Clean, extensible structure tailored to institutional needs (tours, labels, interactive storytelling, etc.).
+
+This template is ideal for developers, curators, and cultural organizations committed to ethical digital practices: doing more with less, for more people.
+
+Explore, test, or contribute to the project on GitHub: https://github.com/ouvroir/museum-pwa

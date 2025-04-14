@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { siteDescription } from '$lib/config'
 
 	let { data } = $props();
@@ -11,8 +11,10 @@
 	<meta data-key="description" name="description" content={siteDescription}>
 </svelte:head>
 
-<h1>Blog</h1>
-
+<section>
+	<header>
+		<h1>Itineraries</h1>
+	</header>
 
 {#each data.posts as { slug, title, date }}
 	<article>
@@ -20,4 +22,6 @@
 		<p>Date : {date}</p>
 		<p><a href="/itineraries/{slug}">{slug}</a></p>
 	</article>
+	<hr/>
 {/each}
+</section>
