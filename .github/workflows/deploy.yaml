@@ -31,10 +31,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Update Supbmodule reference and copy assets in static folder
-        run: |
-          ./update_submodules.sh
-
       - name: build
         env:
           BASE_PATH: ''
