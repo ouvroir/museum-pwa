@@ -14,15 +14,16 @@ declare global {
 	
 		type MdsvexResolver = () => Promise<MdsvexFile>;
 	
-		interface Itinaries {
+		interface Posts {
+			slug: string;
 			title: string;
 			author: string;
 			description: string;
 			date: string;
-			slug: string;
 			published: boolean;
 		}
 	}
+	
 }
 
 export {};

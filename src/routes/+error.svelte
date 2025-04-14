@@ -1,0 +1,26 @@
+<script lang="ts">
+	import { page } from '$app/stores';
+	import { browser } from '$app/environment';
+
+	const online = browser ? navigator.onLine : true;
+</script>
+
+<svelte:head>
+	<title>{$page.status}</title>
+</svelte:head>
+
+<div>
+	{#if online}
+  		{#if $page.status === 404}
+			<h1>Cette page est introuvable ({$page.status})</h1>
+			<p>Si vous cherchiez quelque chose en particulier à cette adresse, laissez une issue sur <a href="https://github.com/ouvroir/blog-template/issues">GitHub</a>. Merci&nbsp;!</p>
+		{:else}
+			<h1>Oups&nbsp;! ({$page.status})</h1>
+			<p>Quelque chose n’a pas fonctionné lorsque nous avons essayé d’afficher cette page. Essayez de recharger la page, s’il vous plaît.</p>
+			<p>Si l’erreur persite, faites-nous le savoir en déposant une issue sur une issue sur <a href="https://github.com/ouvroir/blog-template/issues">GitHub</a>. Merci&nbsp;!</p>
+		{/if}
+	{:else}
+		<h1>Il semble que vous soyez hors-ligne</h1>
+		<p>Rechargez la page quand vous avez trouvé une connexion.</p>
+	{/if}
+</div>

@@ -1,17 +1,30 @@
-// place files you want to import through the `$lib` alias in this folder.
 /**
  * Values used across the site.
  * 
  * This file should be updated with your own values.
  **/ 
 
-export const siteTitle = 'Museum PWA'
-export const siteDescription = 'This is a starter template for a Museum PWA built with SvelteKit by Ouvroir'
-export const siteURL = 'https://ouvroir.umontreal.ca'
-export const siteLink = 'https://github.com/ouvroir/museum-pwa'
+export const siteTitle = 'Blog template'
+export const siteDescription = 'Built with the SvelteKit Ouvroir’s Static Blog Starter'
+export const siteURL = 'example.com'
+export const siteLink = 'https://github.com/ouvroir/blog-template'
 export const siteAuthor = 'Ouvroir'
 
-// content shown per page
-export const postsPerPage = 20
+// posts shown per page on the main blog index pages
+export const postsPerPage = 10
 
-// Main nav menu (also used by the footer and mobile nav) @todo
+// Main nav menu (also used by the footer and mobile nav)
+export const navItems = [
+	{
+		title: 'Blog',
+		route: '/blog'
+	}, 
+	{
+		title: 'About',
+		route: '/about'
+	}, 
+	{
+		title: 'Contact',
+		route: '/contact' 
+	},
+]

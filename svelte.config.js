@@ -16,10 +16,23 @@ const config = {
 			//	rehypeSlug,
 			//	rehypeAutolinkHeadings,
 			//],
-		})
-	],
-	kit: { adapter: adapter() },
-	extensions: ['.svelte', '.svx']
+		})],
+	extensions: ['.svelte', '.svx', '.md'],
+	kit: {
+		adapter: adapter(),
+		prerender: {
+			entries: [
+				"*",
+				"/api/posts/page/*",
+				"/blog/category/*/page/",
+				"/blog/category/*/page/*",
+				"/blog/category/page/",
+				"/blog/category/page/*",
+				"/blog/page/",
+				"/blog/page/*",
+			],
+		},
+	},
 };
 
 export default config;
